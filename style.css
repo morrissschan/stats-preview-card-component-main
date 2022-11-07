@@ -85,6 +85,7 @@ p {
 .container .card ul li span {
   display: block;
   text-transform: lowercase;
+  font-size: 24px;
   font-weight: 700;
   font-family: "Lexend Deca", sans-serif;
   color: var(--White);
