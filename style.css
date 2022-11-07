@@ -155,3 +155,21 @@ p {
     color: var(--slightly-transparent-white);
   }
 }
+
+@media (min-width: 992px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .container .card:nth-child(2) {
+    padding: 0 30px;
+  }
+
+  .container .card p {
+    margin-bottom: 50px;
+  }
+}
